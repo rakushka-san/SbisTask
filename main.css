@@ -18,6 +18,52 @@ section {
     margin: auto;
 }
 
-#menu {
+.menu-section {
     background-color: var(--ui-color-light);
+}
+
+h1 {
+    font-family: 'Azeret Mono', monospace;
+    font-size: 18px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex-basis: 45%;
+}
+
+#menu_img {
+    width: 100%;
+}
+
+.menu-button {
+    display: block;
+    width: 100%;
+
+    margin-top: 12px;
+    padding: 17px 0;
+
+    font-size: 15px;
+    color: var(--ui-color-dark);
+
+    background-color: var(--ui-color-light);
+
+    border: var(--ui-color-dark) 2px solid;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.menu-button:first-of-type {
+    margin-top: 74px;
+}
+
+.menu-button:focus {
+    color: var(--ui-color-light);
+    background-color: var(--ui-color-dark);
 }
