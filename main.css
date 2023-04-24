@@ -1,0 +1,23 @@
+:root {
+    --ui-color-light: #E9E9E3;
+    --ui-color-dark: #6F6F64;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    color: var(--ui-color-dark);
+}
+
+section {
+    padding: 120px 56px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+#menu {
+    background-color: var(--ui-color-light);
+}
