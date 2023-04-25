@@ -63,7 +63,7 @@ h1 {
     margin-top: 74px;
 }
 
-.menu-button:focus {
+.menu-button-active {
     color: var(--ui-color-light);
     background-color: var(--ui-color-dark);
 }
