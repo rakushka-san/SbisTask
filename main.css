@@ -63,6 +63,11 @@ h1 {
     margin-top: 74px;
 }
 
+.menu-button:hover {
+    color: var(--ui-color-light);
+    background-color: var(--ui-color-dark);
+}
+
 .menu-button-active {
     color: var(--ui-color-light);
     background-color: var(--ui-color-dark);
